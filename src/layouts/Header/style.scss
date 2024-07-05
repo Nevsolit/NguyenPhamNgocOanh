@@ -1,0 +1,18 @@
+.header__container{
+    @apply w-full sticky top-0 z-50 ;
+
+    &__wrapper{
+        @apply container p-4 bg-white border-b border-primary flex justify-between items-center relative m-auto;
+
+        &__logo{
+        }
+
+        &__navbar{
+            @apply hidden;
+        }
+
+        &__network{
+          
+        }
+    }
+}

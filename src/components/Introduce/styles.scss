@@ -1,0 +1,21 @@
+.introduce__container{
+    @apply w-full flex  justify-center;
+
+    &__banner{
+        @apply h-[420px] w-full flex;
+
+        &__image{
+            @apply flex-1;
+
+            img{
+                @apply h-full w-full object-cover;
+            }
+        }
+    }
+
+    &__wrapper{
+        @apply container bg-yellow-300 w-full;
+
+       
+    }
+}
