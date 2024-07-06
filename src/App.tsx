@@ -1,4 +1,6 @@
+import AboutUs from "./components/AboutUs";
 import Introduce from "./components/Introduce";
+import Skills from "./components/Skills";
 import Header from "./layouts/Header";
 import "./styles/App.scss";
 
@@ -7,6 +9,8 @@ function App() {
     <div className="app__container">
       <Header />
       <Introduce />
+      <AboutUs />
+      <Skills />
     </div>
   );
 }

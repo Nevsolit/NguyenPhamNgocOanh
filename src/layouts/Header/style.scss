@@ -1,18 +1,57 @@
 .header__container{
-    @apply w-full sticky top-0 z-50 ;
+    @apply w-full fixed top-0 z-50 border-b border-gray-200;
 
     &__wrapper{
-        @apply container p-4 bg-white border-b border-primary flex justify-between items-center relative m-auto;
+        @apply container p-4 bg-white  flex justify-between items-center relative m-auto;
+        @apply md:px-0 ;
 
         &__logo{
         }
 
         &__navbar{
-            @apply hidden;
+            @apply hidden absolute left-1/2 -translate-x-1/2 gap-4;
+            @apply lg:flex;
+
+            a{
+                @apply py-1.5 px-6 rounded-lg duration-200 whitespace-nowrap;
+                @apply hover:bg-primary hover:text-white;
+            }
         }
 
         &__network{
+            @apply flex items-center gap-2;
+    
           
+            &__menu, &__facebook, &__instagram {
+                @apply text-2xl flex justify-center items-center;
+            }
+
+            &__facebook, &__instagram {
+                @apply hidden;
+                @apply lg:flex
+            }
+
+            &__menu{
+                @apply lg:hidden;
+            }
+        }
+    }
+
+    &__drawer{
+        @apply bg-white shadow-md fixed top-0 left-0 h-full w-full max-w-80 z-50 px-4;
+        @apply lg:hidden;
+
+        &__head{
+            @apply py-4 border-b border-gray-200;
+        }
+
+        &__content{
+            @apply py-4 flex flex-col gap-4;
+
+            a{
+                @apply text-lg;
+                @apply hover:underline
+            }
         }
     }
 }

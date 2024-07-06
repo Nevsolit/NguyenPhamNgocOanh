@@ -1,21 +1,36 @@
 .introduce__container{
-    @apply w-full flex  justify-center;
-
-    &__banner{
-        @apply h-[420px] w-full flex;
-
-        &__image{
-            @apply flex-1;
-
-            img{
-                @apply h-full w-full object-cover;
-            }
-        }
-    }
+    @apply w-full flex justify-center ;
+    @apply lg:min-h-screen;
 
     &__wrapper{
-        @apply container bg-yellow-300 w-full;
+        @apply container w-full flex flex-col ;
 
-       
+        &__banner{
+            @apply h-[240px] w-full flex;
+            @apply lg:h-[420px];
+    
+            &__image{
+                @apply flex-1;
+    
+                img{
+                    @apply h-full w-full object-cover;
+                }
+            }
+        }
+
+        &__info{
+            @apply flex flex-col flex-1 justify-center items-center gap-4 font-playfair;
+            @apply lg:gap-0;
+
+            h1{
+                @apply font-bold text-6xl  h-[92px] flex justify-center items-center ;
+                @apply lg:text-8xl lg:h-[140px];
+            }
+
+            p{
+                @apply text-lg text-center;
+                @apply lg:text-2xl;
+            }
+        }
     }
 }

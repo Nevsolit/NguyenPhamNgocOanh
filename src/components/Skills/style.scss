@@ -1,0 +1,48 @@
+.skills__container{
+    @apply  w-full;
+
+    &__wrapper{
+        @apply container w-full gap-4 px-4 flex flex-col m-auto;
+
+        &__item{
+
+            &__head {
+                @apply relative flex items-center ;
+   
+
+                &__circel{
+                    @apply flex items-center;
+                    
+                    &__box{
+                        @apply w-5 h-5 p-1 relative flex justify-center items-center rounded-full bg-[#b3f0ff] z-20;
+                        
+                        &:before{
+                            @apply w-full h-full  bg-primary content-[''] rounded-full ;
+                        }
+                    }
+
+                    &__line{
+                        @apply w-12 h-1.5 bg-primary rounded-full -translate-x-2;
+                    }
+                }
+
+                h2{
+                    @apply text-xl font-bold ml-4;
+                }
+            }
+
+            &__content{
+                @apply mt-4;
+
+                p{
+
+                    @apply text-sm text-gray-500;
+
+                    span{
+                        @apply text-primary;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.about_us__container{
+    @apply w-full flex  border-y border-gray-200;
+    @apply lg:min-h-screen lg:items-center;
+
+    &__wrapper{
+        @apply container w-full gap-4 py-8   flex flex-col m-auto;
+        @apply lg:flex-row ;
+
+        &__image{
+            @apply flex-1 items-center px-4 flex flex-col gap-4;
+            @apply  lg:p-0 lg:gap-8;
+
+            &__title{
+                @apply text-4xl font-bold h-[62px]  flex items-center;
+                @apply lg:text-6xl lg:h-[92px] lg:hidden;
+            }
+
+            &__content{
+                @apply w-[120px] shadow-md border-2 border-primary h-[120px] flex justify-center items-center rounded-full;
+                @apply lg:h-auto lg:w-full lg:rounded-none ;
+
+                img{
+                    @apply w-full h-full object-cover rounded-full;
+                    @apply lg:rounded-none;
+                }
+            }
+        }
+
+        &__content{
+            @apply flex-1 flex flex-col items-center px-4;
+            @apply lg:justify-center  lg:items-start lg:px-8 lg:gap-4;
+
+            p{
+                @apply text-lg text-center;
+                @apply lg:text-xl lg:text-start;
+            }
+
+            &__title{
+                @apply text-4xl font-bold h-[62px] hidden   items-center;
+                @apply lg:text-6xl lg:h-[92px] lg:flex;
+            }
+
+            &__contact{
+                @apply flex gap-4 mt-8;
+
+                p{
+                    @apply py-1.5 px-4 rounded-full border-2 border-primary text-sm text-primary;
+                }
+            }
+        }
+    }
+}
