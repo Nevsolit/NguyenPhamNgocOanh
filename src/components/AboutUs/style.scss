@@ -11,7 +11,7 @@
             @apply  lg:p-0 lg:gap-8;
 
             &__title{
-                @apply text-4xl font-bold h-[62px]  flex items-center;
+                @apply text-4xl font-bold font-playfair h-[62px]  flex items-center;
                 @apply lg:text-6xl lg:h-[92px] lg:hidden;
             }
 
@@ -36,7 +36,7 @@
             }
 
             &__title{
-                @apply text-4xl font-bold h-[62px] hidden   items-center;
+                @apply text-4xl font-bold h-[62px] hidden  font-playfair items-center;
                 @apply lg:text-6xl lg:h-[92px] lg:flex;
             }
 

@@ -1,4 +1,12 @@
-
 .app__container{
     @apply flex flex-col items-center gap-8;
+
+    &__section {
+        @apply bg-primary text-white w-full flex justify-center items-center py-4 text-2xl font-playfair;
+        @apply lg:text-5xl  ;
+
+        h1{
+            @apply lg:h-[140px] flex items-center;
+        }
+    }
 } 
