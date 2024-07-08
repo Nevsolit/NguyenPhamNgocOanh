@@ -3,7 +3,4 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    overflow-x: hidden;
-}
 

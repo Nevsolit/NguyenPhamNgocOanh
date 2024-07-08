@@ -1,0 +1,75 @@
+.experience__container{
+    @apply bg-yellow-300 w-full;
+
+    &__wrapper{
+        @apply container bg-green-800 m-auto px-4;
+
+        &__content {
+            @apply w-full flex-col gap-4;
+
+            &__image{
+                @apply flex-1 bg-green-400 flex h-[50vh] items-center justify-center relative;
+
+                &__item{
+                    @apply w-[240px]  h-[320px] mt-4 border-4 rounded-xl border-white bg-blue-300;
+                
+                    &:nth-child(1){
+                        @apply z-30;
+                    }
+
+                    &:nth-child(2), &:nth-child(3){
+                        @apply bg-yellow-200 absolute;
+                    }
+
+                    &:nth-child(2){
+                        @apply rotate-[5deg] z-20 translate-x-8 -translate-y-4;
+                    }
+
+                    &:nth-child(3){
+                        @apply rotate-[10deg] z-10 translate-x-14 -translate-y-8;
+                    }
+                }
+            }
+
+            &__project{
+                @apply flex-1 bg-red-400;
+
+                h1{
+                    @apply text-xl font-semibold;
+                }
+
+                &__list {
+                    @apply bg-yellow-300 mt-4 flex flex-col gap-4;
+
+                    &__item{
+                        @apply bg-orange-400 px-4 py-10 relative border-l-2 border-primary;
+
+                        &__time{
+                            @apply absolute top-0 -translate-y-3 left-0 flex items-center -translate-x-3 ;
+
+                            &__circel{
+                                @apply h-6 w-6 z-10 rounded-full relative bg-primary flex justify-center items-center;
+                            
+                                &::before{
+                                    @apply content-[''] absolute w-4/5 h-4/5 bg-white rounded-full;
+                                }
+                            }
+
+                            &__line{
+                                @apply h-1.5 w-12 rounded-full -translate-x-3 bg-primary;
+                            }
+
+                            p{
+                                @apply -translate-x-4 py-1 px-4 text-primary rounded-full bg-white border-2 border-primary;
+                            }
+                        }
+
+                        &__content{
+                            @apply flex flex-col;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
