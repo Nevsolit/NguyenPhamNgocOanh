@@ -1,0 +1,24 @@
+.content__container{
+    @apply w-full flex items-center;
+    @apply lg:h-[50vh];
+
+    &__wrapper{
+        @apply container m-auto px-4 flex flex-col gap-8 items-center;
+        @apply lg:flex-row;
+
+        &__item{
+            @apply w-full flex flex-col items-center;
+            @apply lg:gap-2 ;
+
+            h1{
+                @apply text-2xl font-bold text-primary;
+                @apply lg:text-4xl;
+            }
+
+            p{
+                @apply text-center;
+                @apply lg:text-lg;
+            }
+        }
+    }
+}

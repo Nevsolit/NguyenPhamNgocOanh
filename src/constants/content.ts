@@ -49,3 +49,79 @@ export const dataSkills = {
     "Japanese (N5)"
   ]
 };
+
+export const experienceData = [
+  {
+    time: '2021 - 2022',
+    title: 'But I must explain to you how all this mistaken idea',
+    tasks: [
+      {
+        label: "Project introduction",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod",
+      },
+      {
+        label: "Task",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
+      },
+      {
+        label: "Link",
+        description: "https://www.pinterest.com/.",
+      }
+    ]
+  },
+  {
+    time: '2021 - 2022',
+    title: 'But I must explain to you how all this mistaken idea 2',
+    tasks: [
+      {
+        label: "Project introduction",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod",
+      },
+      {
+        label: "Task",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
+      },
+      {
+        label: "Link",
+        description: "https://www.pinterest.com/.",
+      }
+    ]
+  },
+  {
+    time: '2021 - 2022',
+    title: 'But I must explain to you how all this mistaken idea 3' ,
+    tasks: [
+      {
+        label: "Project introduction",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod",
+      },
+      {
+        label: "Task",
+        description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
+      },
+      {
+        label: "Link",
+        description: "https://www.pinterest.com/.",
+      }
+    ]
+  },
+]
+
+export const contentData = [
+  {
+    title: "Bi Ethic",
+    description: "Social media manager"
+  },
+  {
+    title: "Poster",
+    description: "Your dream exhibition the Shamrock"
+  },
+  {
+    title: "Presentation",
+    description: "Glamping Chinese culture"
+  },
+  {
+    title: "Book desgin",
+    description: "English text book"
+  }
+]
