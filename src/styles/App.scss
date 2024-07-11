@@ -9,4 +9,12 @@
             @apply lg:h-[140px] flex items-center;
         }
     }
+
+    &__footer{
+        @apply w-full border-t border-gray-200 mt-8;
+
+        &__wrapper{
+            @apply container m-auto flex justify-center py-4 text-gray-600;
+        }
+    }
 } 

@@ -1,6 +1,6 @@
 .content__container{
     @apply w-full flex items-center;
-    @apply lg:h-[50vh];
+    @apply lg:h-[30vh];
 
     &__wrapper{
         @apply container m-auto px-4 flex flex-col gap-8 items-center;
