@@ -36,18 +36,31 @@ const Header: React.FC = () => {
           >
             <IonIcon name="menu" />
           </button>
-          <button
-            className="header__container__wrapper__network__facebook"
-            onClick={() => setIsShowMenu(!isShowMenu)}
+          <a
+            href="https://www.facebook.com/ngocoanh.ngpham"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <IonIcon name="logo-facebook" />
-          </button>
-          <button
-            className="header__container__wrapper__network__instagram"
-            onClick={() => setIsShowMenu(!isShowMenu)}
+            <button
+              className="header__container__wrapper__network__facebook"
+              onClick={() => setIsShowMenu(!isShowMenu)}
+            >
+              <IonIcon name="logo-facebook" />
+            </button>
+          </a>
+
+          <a
+            href="https://www.instagram.com/oanh.ng16_/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <IonIcon name="logo-instagram" />
-          </button>
+            <button
+              className="header__container__wrapper__network__instagram"
+              onClick={() => setIsShowMenu(!isShowMenu)}
+            >
+              <IonIcon name="logo-instagram" />
+            </button>
+          </a>
         </div>
       </div>
 

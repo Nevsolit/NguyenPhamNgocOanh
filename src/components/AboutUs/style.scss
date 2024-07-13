@@ -17,7 +17,7 @@
 
             &__content{
                 @apply w-[120px] shadow-md border-2 border-primary h-[120px] flex justify-center items-center rounded-full;
-                @apply lg:h-auto lg:w-full lg:rounded-none ;
+                @apply lg:h-auto lg:w-full lg:rounded-2xl overflow-hidden lg:max-w-[420px] ;
 
                 img{
                     @apply w-full h-full object-cover rounded-full;
@@ -41,10 +41,11 @@
             }
 
             &__contact{
-                @apply flex gap-4 mt-8;
+                @apply flex gap-4 mt-8 flex-col;
+                @apply lg:flex-row;
 
                 p{
-                    @apply py-1.5 px-4 rounded-full border-2 border-primary text-sm text-primary;
+                    @apply py-1.5 whitespace-nowrap px-4 rounded-full border-2 border-primary text-sm text-primary;
                 }
             }
         }

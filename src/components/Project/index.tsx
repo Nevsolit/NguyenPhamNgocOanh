@@ -3,7 +3,7 @@ import "./style.scss";
 
 const Project: React.FC = () => {
   return (
-    <div className="project__container">
+    <div className="project__container" id="project">
       <div className="project__container__wrapper">
         {dataProject.map((item, index) => (
           <div

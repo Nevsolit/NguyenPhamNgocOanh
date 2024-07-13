@@ -1,11 +1,15 @@
 import { dataSkills } from "../../constants/content";
+import WhileInView from "../customs/WhileInView";
 import "./style.scss";
 
 const Skills: React.FC = () => {
   return (
-    <div className="skills__container">
+    <div className="skills__container" id="skills">
+      <WhileInView className="skills__container__title">
+        <h1>Skills</h1>
+      </WhileInView>
       <div className="skills__container__wrapper">
-        <div className="skills__container__wrapper__item">
+        <WhileInView className="skills__container__wrapper__item" delay={2}>
           <div className="skills__container__wrapper__item__head">
             <div className="skills__container__wrapper__item__head__circel">
               <div className="skills__container__wrapper__item__head__circel__box"></div>
@@ -20,9 +24,9 @@ const Skills: React.FC = () => {
               </p>
             ))}
           </div>
-        </div>
+        </WhileInView>
 
-        <div className="skills__container__wrapper__item">
+        <WhileInView className="skills__container__wrapper__item" delay={3}>
           <div className="skills__container__wrapper__item__head">
             <div className="skills__container__wrapper__item__head__circel">
               <div className="skills__container__wrapper__item__head__circel__box"></div>
@@ -35,9 +39,9 @@ const Skills: React.FC = () => {
               <p key={skills}>{skills}</p>
             ))}
           </div>
-        </div>
+        </WhileInView>
 
-        <div className="skills__container__wrapper__item">
+        <WhileInView className="skills__container__wrapper__item" delay={4}>
           <div className="skills__container__wrapper__item__head">
             <div className="skills__container__wrapper__item__head__circel">
               <div className="skills__container__wrapper__item__head__circel__box"></div>
@@ -57,9 +61,9 @@ const Skills: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </WhileInView>
 
-        <div className="skills__container__wrapper__item">
+        <WhileInView className="skills__container__wrapper__item" delay={5}>
           <div className="skills__container__wrapper__item__head">
             <div className="skills__container__wrapper__item__head__circel">
               <div className="skills__container__wrapper__item__head__circel__box"></div>
@@ -77,9 +81,9 @@ const Skills: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </WhileInView>
 
-        <div className="skills__container__wrapper__item">
+        <WhileInView className="skills__container__wrapper__item" delay={6}>
           <div className="skills__container__wrapper__item__head">
             <div className="skills__container__wrapper__item__head__circel">
               <div className="skills__container__wrapper__item__head__circel__box"></div>
@@ -92,7 +96,7 @@ const Skills: React.FC = () => {
               <p key={language}>{language}</p>
             ))}
           </div>
-        </div>
+        </WhileInView>
       </div>
     </div>
   );

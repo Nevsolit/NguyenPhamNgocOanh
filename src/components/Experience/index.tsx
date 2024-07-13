@@ -3,7 +3,7 @@ import "./style.scss";
 
 const Experience: React.FC = () => {
   return (
-    <div className="experience__container">
+    <div className="experience__container" id="experience">
       <div className="experience__container__wrapper">
         <div className="experience__container__wrapper__content">
           <div className="experience__container__wrapper__content__image">

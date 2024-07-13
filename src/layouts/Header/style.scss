@@ -1,8 +1,8 @@
 .header__container{
-    @apply w-full fixed top-0 z-50 border-b border-gray-200 backdrop-blur-[1rem] shadow-md;
+    @apply w-full fixed top-0 z-50 border-b border-gray-200 bg-white shadow-md;
 
     &__wrapper{
-        @apply container p-4 backdrop-blur-[1rem]  flex justify-between items-center relative m-auto;
+        @apply container p-4 bg-white  flex justify-between items-center relative m-auto;
         @apply md:px-0 ;
 
         &__logo{
@@ -14,7 +14,7 @@
 
             a{
                 @apply py-1.5 px-6 rounded-lg duration-200 whitespace-nowrap;
-                @apply hover:bg-primary hover:text-white;
+                @apply  hover:text-primary;
             }
         }
 
