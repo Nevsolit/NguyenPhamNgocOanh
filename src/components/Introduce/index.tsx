@@ -1,4 +1,3 @@
-import { Images } from "../../assets";
 import WhileInView from "../customs/WhileInView";
 import "./styles.scss";
 
