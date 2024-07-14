@@ -9,19 +9,19 @@ const Experience: React.FC = () => {
           <div className="experience__container__wrapper__content__image">
             <div className="experience__container__wrapper__content__image__item">
               <img
-                src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/434660529_1121872552189710_7905809463912015063_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=D8dO58vGkeAQ7kNvgFUrhmv&_nc_ht=scontent.fsgn2-9.fna&oh=00_AYA7K3hJpJd7Lji7_VLO8oJmnT4XLGI-BhmFQlhCcXMYOA&oe=66931C39"
+                src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/376823636_1012874673089499_5525791454420561587_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=sCNt27n9USUQ7kNvgHeTeXX&_nc_ht=scontent.fsgn2-7.fna&oh=00_AYCD-SNLc5eDTxFFOw94x_6RDeibuZk21ih4SQ1azW66zg&oe=66998BF6"
                 alt="Phạm Thị Ngọc Oanh"
               />
             </div>
             <div className="experience__container__wrapper__content__image__item">
               <img
-                src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/382206624_1019032645807035_5027438540433302417_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=umDZKgonEXUQ7kNvgEm3RTu&_nc_ht=scontent.fsgn2-3.fna&oh=00_AYDawUR6Y8SBVnSZaK5XUNa49D4bEAzNPgaqjp0uq9_IoA&oe=669334B6"
+                src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/357391303_979215593122074_8536965025429422289_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Pmbng4IpgvcQ7kNvgEbe9RH&_nc_ht=scontent.fsgn2-6.fna&oh=00_AYCRRDuO025lu_IqHPscJap3tNnFYfz9wwHGD5yJoArsfA&oe=66999E47"
                 alt="Phạm Thị Ngọc Oanh"
               />
             </div>
             <div className="experience__container__wrapper__content__image__item">
               <img
-                src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/357468268_979215306455436_2428388748738147199_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=8x01Y2rgysYQ7kNvgHGI8lg&_nc_ht=scontent.fsgn2-7.fna&oh=00_AYDlkoj6nsRpjx0Sxxda97suURsO2lbEXmHAnoZ46aWEWg&oe=66930948"
+                src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/357472190_979215279788772_3817772993204507598_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MB7qXNfXPxgQ7kNvgFttQQK&_nc_ht=scontent.fsgn2-6.fna&oh=00_AYDpK8obG5HBmM21JFswYPhJZl3Ag-aIpaWIBTFpm2NuDA&oe=66998648"
                 alt="Phạm Thị Ngọc Oanh"
               />
             </div>
