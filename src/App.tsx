@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import AboutUs from "./components/AboutUs";
 import Content from "./components/content";
 import WhileInView from "./components/customs/WhileInView";
